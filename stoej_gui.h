@@ -8,10 +8,13 @@ BEGIN_JUCE_MODULE_DECLARATION
     name:                   stoej_gui
     description:            GUI extensions for the JUCE framework
 
-    dependencies:           stoej_core
+    dependencies:           stoej_core, juce_gui_basics
     license:                GPL3 / commercial
     minimumCppStandard:     20
 
 END_JUCE_MODULE_DECLARATION
 
 */
+
+#pragma once
+#include "src/stoej_ThemeManager.h"
